@@ -4,7 +4,7 @@ _Note, this documentation has been written for use with Windows. Later documenta
 ## Setup Part 1 - MCP Setup ##
 - MCP Download: http://www.mediafire.com/file/03d94f13c9ulj5a/mcp43.zip/file
 - Eclipse 2020-06: https://www.eclipse.org/downloads/packages/release/2020-06/r
-- Java Development Kit 8u51: https://download.oracle.com/otn/java/jdk/8u51-b16/jdk-8u51-windows-x64.exe
+- Java Development Kit 8: https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.msi
 
 _JDK 8u51 recommended, however any variant of JDK 8 will function_
 
