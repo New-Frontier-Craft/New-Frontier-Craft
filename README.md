@@ -1,14 +1,14 @@
-# New-Frontier-Craft
-_Note, this documentation has been written for use with Windows. Later documentation will be added for using an NFC workspace on non-Windows operating systems
+# New-Frontier-Craft #
+_Note, this documentation has been written for use with Windows. Later documentation will be added for using an NFC workspace on non-Windows operating systems_
 
-## Setup Part 1 - MCP Setup
+## Setup Part 1 - MCP Setup ##
 - MCP Download: http://www.mediafire.com/file/03d94f13c9ulj5a/mcp43.zip/file
 - Eclipse 2020-06: https://www.eclipse.org/downloads/packages/release/2020-06/r
 - Java Development Kit 8u51: https://download.oracle.com/otn/java/jdk/8u51-b16/jdk-8u51-windows-x64.exe
 
 _JDK 8u51 recommended, however any variant of JDK 8 will function_
 
-### Part 1.1 - The bin folder
+### Part 1.1 - The bin folder ###
 - Create folder called `bin` in jars folder
 - Download [lwjgl 2.9.4](http://ci.newdawnsoftware.com/job/LWJGL-git-dist/lastBuild/artifact/dist/lwjgl-2.9.4.zip)
 - Extract the downloaded lwjgl zip
@@ -22,7 +22,7 @@ _JDK 8u51 recommended, however any variant of JDK 8 will function_
 - Rename the jar to `minecraft.jar`
 - Copy the `minecraft.jar` file into the bin folder
 
-### Part 1.2 - commands.py patch
+### Part 1.2 - commands.py patch ###
 - Go to the `runtime` folder
 - Open commands.py in your text editor of choice
 - Find `def checkupdates` at line 484
@@ -30,11 +30,11 @@ _JDK 8u51 recommended, however any variant of JDK 8 will function_
 
 ![Patch commands.py](https://cdn.discordapp.com/attachments/459889822291591179/682445814341304341/Capture.PNG)
 
-## Setup Part 2 - NFC Installation
+## Setup Part 2 - NFC Installation ##
 - Download the NFC code by clicking the `Code` button on the top of the page, and click `Download ZIP`
 - Copy all the files from the zip into your MCP base directory, so that the `setup_NFC.bat` file is alongside the other MCP bat scripts
 - Run `setup_NFC.bat`
 
-## Setup Part 3 - Eclipse
+## Setup Part 3 - Eclipse ##
 - Open Eclipse 2020-06 (Or any earlier version with JDK 8 support)
 - Copy the path to the Eclipse folder in your MCP directory to the "Workspace" text box in the middle of the window, or click the `Browse...` button and navigate to the said folder. The end of the text in the Workspace text box should read `mcp43\eclipse`
