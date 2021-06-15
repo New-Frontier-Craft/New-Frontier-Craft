@@ -30,6 +30,11 @@ _JDK 8u51 recommended, however any variant of JDK 8 will function_
 
 ![Patch commands.py](https://cdn.discordapp.com/attachments/459889822291591179/682445814341304341/Capture.PNG)
 
+### Part 1.3 - lib folder ###
+- Download the NFC libs from [here](https://www.mediafire.com/file/kkc1ugzuoyx6zim/lib.zip/file)
+- Download [authlib](https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.jar)
+- Add all these files to the `lib` folder in MCP
+
 ## Setup Part 2 - NFC Installation ##
 - Download the NFC code by clicking the `Code` button on the top of the page, and click `Download ZIP`
 - Copy all the files from the zip into your MCP base directory, so that the `setup_NFC.bat` file is alongside the other MCP bat scripts
