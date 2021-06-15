@@ -1,1 +1,40 @@
 # New-Frontier-Craft
+_Note, this documentation has been written for use with Windows. Later documentation will be added for using an NFC workspace on non-Windows operating systems
+
+## Setup Part 1 - MCP Setup
+- MCP Download: http://www.mediafire.com/file/03d94f13c9ulj5a/mcp43.zip/file
+- Eclipse 2020-06: https://www.eclipse.org/downloads/packages/release/2020-06/r
+- Java Development Kit 8u51: https://download.oracle.com/otn/java/jdk/8u51-b16/jdk-8u51-windows-x64.exe
+
+_JDK 8u51 recommended, however any variant of JDK 8 will function_
+
+### Part 1.1 - The bin folder
+- Create folder called `bin` in jars folder
+- Download [lwjgl 2.9.4](http://ci.newdawnsoftware.com/job/LWJGL-git-dist/lastBuild/artifact/dist/lwjgl-2.9.4.zip)
+- Extract the downloaded lwjgl zip
+- Copy `lwjgl.jar` and `lwjgl_util.jar` from the jar folder of the extracted folder to the `bin` folder of MCP
+- Create a folder called `natives` in your MCP `bin` folder
+- Go to the `native/windows` folder of the extracted LWJGL zip, and copy the contents to the `natives` folder of MCP
+- Download [jinput 2.0.9](https://repo1.maven.org/maven2/net/java/jinput/jinput/2.0.9/jinput-2.0.9.jar)
+- Rename the downloaded jar to jinput, removing the `-2.0.9` from the title
+- Copy it into the MCP `bin` folder 
+- Download the jar for [Minecraft Beta 1.7.3](https://launcher.mojang.com/v1/objects/43db9b498cb67058d2e12d394e6507722e71bb45/client.jar)
+- Rename the jar to `minecraft.jar`
+- Copy the `minecraft.jar` file into the bin folder
+
+### Part 1.2 - commands.py patch
+- Go to the `runtime` folder
+- Open commands.py in your text editor of choice
+- Find `def checkupdates` at line 484
+- Replace the text underneath it with the word `pass`
+
+![Patch commands.py](https://cdn.discordapp.com/attachments/459889822291591179/682445814341304341/Capture.PNG)
+
+## Setup Part 2 - NFC Installation
+- Download the NFC code by clicking the `Code` button on the top of the page, and click `Download ZIP`
+- Copy all the files from the zip into your MCP base directory, so that the `setup_NFC.bat` file is alongside the other MCP bat scripts
+- Run `setup_NFC.bat`
+
+## Setup Part 3 - Eclipse
+- Open Eclipse 2020-06 (Or any earlier version with JDK 8 support)
+- Copy the path to the Eclipse folder in your MCP directory to the "Workspace" text box in the middle of the window, or click the `Browse...` button and navigate to the said folder. The end of the text in the Workspace text box should read `mcp43\eclipse`
