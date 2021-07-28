@@ -1,5 +1,5 @@
 # New-Frontier-Craft #
-_Note, this documentation has been written for use with Windows. Later documentation will be added for using an NFC workspace on non-Windows operating systems_
+_Note, this documentation has been written for use with Windows. Later documentation will be added for using an NFC workspace on non-Windows operating systems. For now, it's recommended if trying to build NFC on a non-Windows OS that the user use [Wine](https://en.wikipedia.org/wiki/Wine_(software)._
 
 ## Setup Part 1 - MCP Setup ##
 - MCP Download: http://www.mediafire.com/file/03d94f13c9ulj5a/mcp43.zip/file
