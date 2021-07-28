@@ -1,0 +1,62 @@
+title|English [United Kingdom]
+author|Mojang, robertfwallis
+game.name=New Frontier Craft
+
+tile.cloth.silver.name=Light Grey Wool
+tile.cloth.silver.desc=
+tile.cloth.gray.name=Grey Wool
+tile.cloth.gray.desc=
+
+tile.lockedchest.silver.name=Light Grey Stained Glass
+tile.lockedchest.silver.desc=
+tile.lockedchest.gray.name=Grey Stained Glass
+tile.lockedchest.gray.desc=
+
+tile.dyedWood.silver.name=Light Grey Stained Planks
+tile.dyedWood.silver.desc=
+tile.dyedWood.gray.name=Grey Stained Planks
+tile.dyedWood.gray.desc=
+
+tile.aluminumOre.name=Aluminium Ore
+
+tile.aluminumBlock.name=Block of Aluminium
+
+
+
+item.cookie.name=Biscuit
+item.cookie.desc=
+item.leggingsCloth.name=Leather Trousers
+item.leggingsCloth.desc=
+item.dyePowder.silver.name=Light Grey Dye
+item.dyePowder.silver.desc=
+item.dyePowder.gray.name=Grey Dye
+item.dyePowder.gray.desc=
+
+
+item.aluminumIngot.name=Aluminium Ingot
+
+
+
+item.aluminumPickaxe.name=Aluminium Pickaxe
+
+item.aluminumShovel.name=Aluminium Shovel
+
+item.aluminumSword.name=Aluminium Sword
+
+item.aluminumHoe.name=Aluminium Hoe
+
+item.aluminumAxe.name=Aluminium Axe
+
+
+
+item.aluminumHelmet.name=Aluminium Helmet
+
+item.aluminumChestplate.name=Aluminium Chestplate
+
+item.aluminumLeggings.name=Aluminium Leggings
+
+item.aluminumBoots.name=Aluminium Boots
+
+
+
+item.wrench.name=Spanner

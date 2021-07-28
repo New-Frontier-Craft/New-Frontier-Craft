@@ -1,0 +1,3 @@
+This file is obsolete, the keys in it have been migrated to en_US.lang, and are at the bottom.
+The keys that were moved are marked with "#stats_US keys START" at the start, for easily finding them.
+If NFC adds achievements or other stats_US related keys, they'll be down there for consistency.
