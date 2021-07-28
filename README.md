@@ -10,7 +10,7 @@ _JDK 8u51 recommended, however any variant of JDK 8 will function_
 
 ### Part 1.1 - The bin folder ###
 - Create folder called `bin` in jars folder
-- Download [lwjgl 2.9.4](http://ci.newdawnsoftware.com/job/LWJGL-git-dist/lastBuild/artifact/dist/lwjgl-2.9.4.zip)
+- Download [lwjgl 2.9.3](https://sourceforge.net/projects/java-game-lib/files/Official%20Releases/LWJGL%202.9.3/lwjgl-2.9.3.zip/download)
 - Extract the downloaded lwjgl zip
 - Copy `lwjgl.jar` and `lwjgl_util.jar` from the jar folder of the extracted folder to the `bin` folder of MCP
 - Create a folder called `natives` in your MCP `bin` folder
