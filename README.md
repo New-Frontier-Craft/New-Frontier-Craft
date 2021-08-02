@@ -9,6 +9,7 @@ _Note, this documentation has been written for use with Windows. Later documenta
 _JDK 8u51 recommended, however any variant of JDK 8 will function_
 
 ### Part 1.1 - The bin folder ###
+_Step 1.1 can be ignored if the user already has a functional bin folder from an old Minecraft installation_
 - Create folder called `bin` in jars folder
 - Download [lwjgl 2.9.3](https://sourceforge.net/projects/java-game-lib/files/Official%20Releases/LWJGL%202.9.3/lwjgl-2.9.3.zip/download)
 - Extract the downloaded lwjgl zip
