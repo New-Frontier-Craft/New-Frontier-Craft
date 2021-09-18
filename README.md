@@ -44,3 +44,7 @@ _Step 1.1 can be ignored if the user already has a functional bin folder from an
 ## Setup Part 3 - Eclipse ##
 - Open Eclipse 2020-06 (Or any earlier version with JDK 8 support)
 - Copy the path to the Eclipse folder in your MCP directory to the "Workspace" text box in the middle of the window, or click the `Browse...` button and navigate to the said folder. The end of the text in the Workspace text box should read `mcp43\eclipse`
+
+#### Legacy Workspaces ####
+- NFC 1.8.6_02: https://github.com/Zowja/New-Frontier-Craft
+- NFC 1.8.5_01: https://github.com/Zowja/New-Frontier-Craft/tree/f942ea5a57ab28f846f66098baf6d6d5293bb9fc
