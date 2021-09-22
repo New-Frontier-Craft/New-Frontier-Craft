@@ -6,8 +6,6 @@ _Note, this documentation has been written for use with Windows. Later documenta
 - Eclipse 2020-06: https://www.eclipse.org/downloads/packages/release/2020-06/r
 - Java Development Kit 8: https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.msi
 
-_JDK 8u51 recommended, however any variant of JDK 8 will function_
-
 ### Part 1.1 - The bin folder ###
 _Step 1.1 can be ignored if the user already has a functional bin folder from an old Minecraft installation_
 - Create folder called `bin` in jars folder
