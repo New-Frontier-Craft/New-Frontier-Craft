@@ -11,12 +11,13 @@ _Step 1.1 can be ignored if the user already has a functional bin folder from an
 - Create folder called `bin` in jars folder
 - Download [lwjgl 2.9.3](https://sourceforge.net/projects/java-game-lib/files/Official%20Releases/LWJGL%202.9.3/lwjgl-2.9.3.zip/download)
 - Extract the downloaded lwjgl zip
-- Copy `lwjgl.jar` and `lwjgl_util.jar` from the jar folder of the extracted folder to the `bin` folder of MCP
-- Create a folder called `natives` in your MCP `bin` folder
+- Create a folder named `bin` within the jars folder
+- Copy `lwjgl.jar` and `lwjgl_util.jar` from the jar folder of the extracted folder to the `jars/bin` folder of MCP
+- Create a folder called `natives` in your MCP `jars/bin` folder
 - Go to the `native/windows` folder of the extracted LWJGL zip, and copy the contents to the `natives` folder of MCP
 - Download [jinput 2.0.9](https://repo1.maven.org/maven2/net/java/jinput/jinput/2.0.9/jinput-2.0.9.jar)
 - Rename the downloaded jar to jinput, removing the `-2.0.9` from the title
-- Copy it into the MCP `bin` folder 
+- Copy it into the MCP `jars/bin` folder 
 - Download the jar for [Minecraft Beta 1.7.3](https://launcher.mojang.com/v1/objects/43db9b498cb67058d2e12d394e6507722e71bb45/client.jar)
 - Rename the jar to `minecraft.jar`
 - Copy the `minecraft.jar` file into the bin folder
