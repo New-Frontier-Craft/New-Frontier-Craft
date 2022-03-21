@@ -3,7 +3,7 @@ _Note, this documentation has been written for use with Windows. Later documenta
 
 ## Setup Part 1 - MCP Setup ##
 - MCP Download: http://www.mediafire.com/file/03d94f13c9ulj5a/mcp43.zip/file
-- Eclipse 2020-06: https://www.eclipse.org/downloads/packages/release/2020-06/r
+- Eclipse 2020-06: https://www.eclipse.org/downloads/packages/release/2020-06/r (Recommended)
 - Java Development Kit 8: https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.msi
 
 ### Part 1.1 - The bin folder ###
@@ -40,7 +40,7 @@ _Step 1.1 can be ignored if the user already has a functional bin folder from an
 - Run `setup_NFC.bat`
 
 ## Setup Part 3 - Eclipse ##
-- Open Eclipse 2020-06 (Or any earlier version with JDK 8 support)
+- Open Eclipse 2020-06 (Or any other version with JDK 8 support)
 - Copy the path to the Eclipse folder in your MCP directory to the "Workspace" text box in the middle of the window, or click the `Browse...` button and navigate to the said folder. The end of the text in the Workspace text box should read `mcp43\eclipse`
 
 #### Legacy Workspaces ####
