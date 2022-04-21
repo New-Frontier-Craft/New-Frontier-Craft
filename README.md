@@ -1,5 +1,5 @@
 # New Frontier Craft #
-_Note, this documentation has been written for use with Windows. Later documentation will be added for using an NFC workspace on non-Windows operating systems._
+_Note, this documentation has been written for use with Windows. Later documentation will be added for using an NFC workspace on non-Windows operating systems. Also, the setup process will be more automated in future versions_
 
 ## Setup Part 1 - MCP Setup ##
 - MCP Download: http://www.mediafire.com/file/03d94f13c9ulj5a/mcp43.zip/file
