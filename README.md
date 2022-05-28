@@ -4,10 +4,11 @@ _A New Adventure In Old Minecraft - The Official Source Code_
 ---
 
 ## Setup Part 1 - Development Software Setup ##
-- If on Linux install Wine, `python2`, `p7zip-full`, and `xdelta3`.
 - MCP Download: http://www.mediafire.com/file/03d94f13c9ulj5a/mcp43.zip/file
 - Eclipse 2020-06: https://www.eclipse.org/downloads/packages/release/2020-06/r (Recommended)
 - Java Development Kit 8: https://github.com/AdoptOpenJDK/openjdk8-binaries/releases
+- If on Linux install [Wine](https://wiki.winehq.org/Download), `python2`, `p7zip-full`, and `xdelta3`
+
 
 ## Setup Part 2 - The bin folder ##
 _Part 2 can be ignored if the user already has a functional bin folder from an old Minecraft installation_
