@@ -216,6 +216,7 @@ key.playerlist=Списак играча
 texturePack.openFolder=Фасцикла текстурпака
 texturePack.title=Изаберите текстурпак
 texturePack.folderInfo=(Овде ставите текстурпак)
+texturePack.webLink=Овде ћете наћи нове текстурпаке
 
 languagePack.openFolder=Фасцикла језика
 languagePack.title=Изаберите језик
@@ -373,6 +374,8 @@ tile.stoneSlab.stone.name=Камена плоча
 tile.stoneSlab.stone.desc=
 tile.stoneSlab.sand.name=Пешчарска плоча
 tile.stoneSlab.sand.desc=
+tile.stoneSlab.woodPetrified.name=Дрвена окамењена плоча
+tile.stoneSlab.woodPetrified.desc=
 tile.stoneSlab.wood.name=Дрвена плоча
 tile.stoneSlab.wood.desc=
 tile.stoneSlab.cobble.name=Калдрма плоча
@@ -597,9 +600,42 @@ tile.dyedWood.orange.desc=
 tile.dyedWood.white.name=Беле даске
 tile.dyedWood.white.desc=
 
+tile.dyedWoodPetrified.black.name=Црне окамењене даске
+tile.dyedWoodPetrified.black.desc=
+tile.dyedWoodPetrified.red.name=Црвене окамењене даске
+tile.dyedWoodPetrified.red.desc=
+tile.dyedWoodPetrified.green.name=Зелене окамењене даске
+tile.dyedWoodPetrified.green.desc=
+tile.dyedWoodPetrified.brown.name=Смеђе окамењене даске
+tile.dyedWoodPetrified.brown.desc=
+tile.dyedWoodPetrified.blue.name=Плаве окамењене даске
+tile.dyedWoodPetrified.blue.desc=
+tile.dyedWoodPetrified.purple.name=Љубичасте окамењене даске
+tile.dyedWoodPetrified.purple.desc=
+tile.dyedWoodPetrified.cyan.name=Тиркизне окамењене даске
+tile.dyedWoodPetrified.cyan.desc=
+tile.dyedWoodPetrified.silver.name=Светло сиве окамењене даске
+tile.dyedWoodPetrified.silver.desc=
+tile.dyedWoodPetrified.gray.name=Сиве окамењене даске
+tile.dyedWoodPetrified.gray.desc=
+tile.dyedWoodPetrified.pink.name=Ружичасте окамењене даске
+tile.dyedWoodPetrified.pink.desc=
+tile.dyedWoodPetrified.lime.name=Светло зелене окамењене даске
+tile.dyedWoodPetrified.lime.desc=
+tile.dyedWoodPetrified.yellow.name=Жуте окамењене даске
+tile.dyedWoodPetrified.yellow.desc=
+tile.dyedWoodPetrified.lightBlue.name=Светло плаве окамењене даске
+tile.dyedWoodPetrified.lightBlue.desc=
+tile.dyedWoodPetrified.magenta.name=Лиле окамењене даске
+tile.dyedWoodPetrified.magenta.desc=
+tile.dyedWoodPetrified.orange.name=Наранџасте окамењене даске
+tile.dyedWoodPetrified.orange.desc=
+tile.dyedWoodPetrified.white.name=Беле окамењене даске
+tile.dyedWoodPetrified.white.desc=
+
 tile.tintedGlass.name=Затамњено стакло
 
-tile.biolumMushroom.blue.name=Плави печурка
+tile.biolumMushroom.blue.name=Плава печурка
 tile.biolumMushroom.purple.name=Љубичаста печурка
 
 tile.cobbleWall.name=Зид од калдрме
@@ -620,7 +656,7 @@ tile.stoneBrick.Upright-Cut.stone.block.name=Вертикални камени �
 
 tile.brickOven.name=Циглана пећница
 tile.fakeBedrock.name=Лажни темељац
-tile.recordPlant.name=Биљка-семе
+tile.recordPlant.name=Семе је плоча
 tile.pebble.name=Шљунак
 tile.alphaGrass.name=Алфа трава
 tile.platedStone.name=Камена плоча
@@ -631,6 +667,7 @@ tile.scaffolding.name=Скеле
 tile.barrierBlock.name=Невидљива препрека
 tile.supportBlock.name=Невидљиви чврсти блок
 tile.lightBlock.name=Невидљива сијалица
+tile.planksPetrified.name=Окамењене храстове даске
 
 tile.aluminumOre.name=Алуминијумска руда
 tile.copperOre.name=Бакрена руда
@@ -689,7 +726,7 @@ tile.osmiumBlock.name=Осмијумски блок
 tile.oil.name=Нафта
 
 tile.blueGlowstone.name=Плави светлосни камен
-tile.glowshroom.name=Светла печурка
+tile.glowshroom.name=Светлосна печурка
 tile.fieryMushroom.name=Ватрена печурка
 tile.hellSand.name=Спаљени песак
 

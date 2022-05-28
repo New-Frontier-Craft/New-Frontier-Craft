@@ -3,7 +3,7 @@ python2 runtime/decompile.py "$@"
 
 #Source Code Setup
 wine ./runtime/bin/7za a -m0=Copy src.7z src/
-xdelta3 -d -s "src.7z" "jars/NFC v3.4.1_01 SRC Patch.xdelta" "src_nfc.7z"
+xdelta3 -d -s "src.7z" "jars/NFC v3.4.2 SRC Patch.xdelta" "src_nfc.7z"
 mv src src_old
 7za x src_nfc.7z src
 

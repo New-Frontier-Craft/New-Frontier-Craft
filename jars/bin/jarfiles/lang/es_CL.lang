@@ -1,6 +1,6 @@
 title|Español [Chile]
 author|metallica5167
-splashes|jar:/title/splashes.txt
+splashes|jar:/title/splashes_CL.txt
 
 #================================#
 #                                #
@@ -232,6 +232,7 @@ key.playerlist=Lista de jugadores
 texturePack.openFolder=Abrir carpeta de texturas
 texturePack.title=Seleccionar paquete de texturas
 texturePack.folderInfo=(Poner archivos de texturas aqu\u00ed)
+texturePack.webLink=Descarga nuevos paquetes de texturas
 
 languagePack.openFolder=Abrir carpeta de idiomas
 languagePack.title=Seleccionar idioma
@@ -389,12 +390,14 @@ tile.stoneSlab.stone.name=Losa de piedra
 tile.stoneSlab.stone.desc=
 tile.stoneSlab.sand.name=Losa de arenisca
 tile.stoneSlab.sand.desc=
-tile.stoneSlab.wood.name=Losa de madera
-tile.stoneSlab.wood.desc=
+tile.stoneSlab.woodPetrified.name=Losa de madera
+tile.stoneSlab.woodPetrified.desc=
 tile.stoneSlab.cobble.name=Losa de roca
 tile.stoneSlab.cobble.desc=
 tile.stoneSlab.brick.name=Losa de ladrillos
 tile.stoneSlab.brick.desc=
+tile.stoneSlab.wood.name=Losa de madera
+tile.stoneSlab.wood.desc=
 tile.brick.name=Ladrillos
 tile.brick.desc=
 tile.brick.Fired.name=Ladrillos cocidos
@@ -613,6 +616,39 @@ tile.dyedWood.orange.desc=
 tile.dyedWood.white.name=Madera te\u00f1ida de blanco
 tile.dyedWood.white.desc=
 
+tile.dyedWoodPetrified.black.name=Black Petrified Planks
+tile.dyedWoodPetrified.black.desc=
+tile.dyedWoodPetrified.red.name=Red Petrified Planks
+tile.dyedWoodPetrified.red.desc=
+tile.dyedWoodPetrified.green.name=Green Petrified Planks
+tile.dyedWoodPetrified.green.desc=
+tile.dyedWoodPetrified.brown.name=Brown Petrified Planks
+tile.dyedWoodPetrified.brown.desc=
+tile.dyedWoodPetrified.blue.name=Blue Petrified Planks
+tile.dyedWoodPetrified.blue.desc=
+tile.dyedWoodPetrified.purple.name=Purple Petrified Planks
+tile.dyedWoodPetrified.purple.desc=
+tile.dyedWoodPetrified.cyan.name=Cyan Petrified Planks
+tile.dyedWoodPetrified.cyan.desc=
+tile.dyedWoodPetrified.silver.name=Light Gray Petrified Planks
+tile.dyedWoodPetrified.silver.desc=
+tile.dyedWoodPetrified.gray.name=Gray Petrified Planks
+tile.dyedWoodPetrified.gray.desc=
+tile.dyedWoodPetrified.pink.name=Pink Petrified Planks
+tile.dyedWoodPetrified.pink.desc=
+tile.dyedWoodPetrified.lime.name=Lime Petrified Planks
+tile.dyedWoodPetrified.lime.desc=
+tile.dyedWoodPetrified.yellow.name=Yellow Petrified Planks
+tile.dyedWoodPetrified.yellow.desc=
+tile.dyedWoodPetrified.lightBlue.name=Light Blue Petrified Planks
+tile.dyedWoodPetrified.lightBlue.desc=
+tile.dyedWoodPetrified.magenta.name=Magenta Petrified Planks
+tile.dyedWoodPetrified.magenta.desc=
+tile.dyedWoodPetrified.orange.name=Orange Petrified Planks
+tile.dyedWoodPetrified.orange.desc=
+tile.dyedWoodPetrified.white.name=White Petrified Planks
+tile.dyedWoodPetrified.white.desc=
+
 tile.tintedGlass.name=Vidrio oscurecido
 
 tile.biolumMushroom.blue.name=Champi\u00f1\u00f3n azul
@@ -640,13 +676,16 @@ tile.recordPlant.name=Planta disco
 tile.pebble.name=Guijarro
 tile.alphaGrass.name=Pasto alfa
 tile.platedStone.name=Piedra chapada
-tile.brickStairs.name=Escaleras de ladrillos
-tile.sandstoneStairs.name=Escaleras de arenisca
-tile.stoneBrickStairs.name=Escaleras de ladrillos de piedra
 tile.scaffolding.name=Andamio
 tile.barrierBlock.name=Barrera
 tile.supportBlock.name=Bloque de soporte
 tile.lightBlock.name=Fuente de luz
+tile.planksPetrified.name=Petrified Wooden Planks
+
+tile.brickStairs.name=Escaleras de ladrillos
+tile.stairsPetrifiedWood.name=Petrified Wooden Stairs
+tile.sandstoneStairs.name=Escaleras de arenisca
+tile.stoneBrickStairs.name=Escaleras de ladrillos de piedra
 
 tile.aluminumOre.name=Mineral de aluminio
 tile.copperOre.name=Mineral de cobre
@@ -1229,10 +1268,10 @@ item.wrench.name=Llave inglesa
 
 item.spawnEgg.Monster.name=Generar Joe
 item.spawnEgg.Creeper.name=Generar creeper
-item.spawnEgg.FireCreeper.name=Generar creeper de fuego
+item.spawnEgg.FireCreeper.name=Generar creeper infernal
 item.spawnEgg.Skeleton.name=Generar esqueleto
 item.spawnEgg.Spider.name=Generar ara\u00f1a
-item.spawnEgg.FireSpider.name=Generar ara\u00f1a de fuego
+item.spawnEgg.FireSpider.name=Generar ara\u00f1a flameante
 item.spawnEgg.Giant.name=Generar gigante
 item.spawnEgg.Zombie.name=Generar zombi
 item.spawnEgg.Slime.name=Generar slime

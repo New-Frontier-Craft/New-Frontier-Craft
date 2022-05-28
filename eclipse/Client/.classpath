@@ -49,12 +49,12 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Client/jars/bin/natives"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="../../lib/log4j-api-2.0-beta9.jar">
+	<classpathentry kind="lib" path="../../lib/log4j-api-2.15.0.jar">
 		<attributes>
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Client/jars/bin/natives"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="../../lib/log4j-core-2.0-beta9.jar">
+	<classpathentry kind="lib" path="../../lib/log4j-core-2.15.0.jar">
 		<attributes>
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Client/jars/bin/natives"/>
 		</attributes>
