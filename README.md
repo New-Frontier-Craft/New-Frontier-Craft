@@ -1,5 +1,5 @@
 # New Frontier Craft #
-_A New Adventure In Old Minecraft - Official Source Code_
+_A New Adventure In Old Minecraft - The Official Source Code_
 
 ---
 
