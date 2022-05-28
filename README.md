@@ -37,5 +37,6 @@ _Part 2 can be ignored if the user already has a functional bin folder from an o
 ---
 
 #### Legacy Workspaces ####
+- NFC v3.4.0: https://github.com/LO6AN/New-Frontier-Craft/tree/22896a388056fcdaac47e36ef27887f25f166a49
 - NFC 1.8.6_02: https://github.com/Zowja/New-Frontier-Craft
 - NFC 1.8.5_01: https://github.com/Zowja/New-Frontier-Craft/tree/f942ea5a57ab28f846f66098baf6d6d5293bb9fc
