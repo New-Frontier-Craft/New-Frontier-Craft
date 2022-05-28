@@ -1,7 +1,8 @@
 # New Frontier Craft #
-_Note, this documentation has been written for use with Windows. Later documentation will be added for using an NFC workspace on non-Windows operating systems. Also, the setup process will be more automated in future versions_
+_Note, the setup process will be more automated in future versions_
 
 ## Setup Part 1 - MCP Setup ##
+- If you use Linux install Wine and `python2`.
 - MCP Download: http://www.mediafire.com/file/03d94f13c9ulj5a/mcp43.zip/file
 - Eclipse 2020-06: https://www.eclipse.org/downloads/packages/release/2020-06/r (Recommended)
 - Java Development Kit 8: https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.msi
@@ -13,7 +14,7 @@ _Step 1.1 can be ignored if the user already has a functional bin folder from an
 - Extract the downloaded lwjgl zip
 - Copy `lwjgl.jar` and `lwjgl_util.jar` from the jar folder of the extracted folder to the `jars/bin` folder of MCP
 - Create a folder called `natives` in your MCP `jars/bin` folder
-- Go to the `native/windows` folder of the extracted LWJGL zip, and copy the contents to the `natives` folder of MCP
+- Go to the `native/[os-name]` folder of the extracted LWJGL zip, and copy the contents to the `natives` folder of MCP
 - Download [jinput 2.0.9](https://repo1.maven.org/maven2/net/java/jinput/jinput/2.0.9/jinput-2.0.9.jar)
 - Rename the downloaded jar to jinput, removing the `-2.0.9` from the title
 - Copy it into the MCP `jars/bin` folder 
@@ -35,9 +36,10 @@ _Step 1.1 can be ignored if the user already has a functional bin folder from an
 - Add all these files to the `lib` folder in MCP
 
 ## Setup Part 2 - NFC Installation ##
+- If you use Linux install `p7zip-full` and `xdelta3`.
 - Download the NFC code by clicking the `Code` button on the top of the page, and click `Download ZIP`
-- Copy all the files from the zip into your MCP base directory, so that the `setup_NFC.bat` file is alongside the other MCP bat scripts
-- Run `setup_NFC.bat`
+- Copy all the files from the zip into your MCP base directory, so that the `setup_NFC` files are alongside the other MCP scripts
+- Run `setup_NFC.bat` or `setup_NFC.sh` if you are using Linux.
 
 ## Setup Part 3 - Eclipse ##
 - Open Eclipse 2020-06 (Or any other version with JDK 8 support)
