@@ -6,6 +6,7 @@ wine ./runtime/bin/7za a -m0=Copy src.7z src/
 xdelta3 -d -s "src.7z" "jars/NFC v3.4.2 SRC Patch.xdelta" "src_nfc.7z"
 mv src src_old
 7za x src_nfc.7z src
+python2 runtime/updatemd5.py "$@"
 
 #Jar Setup
 cd ./jars/bin/
