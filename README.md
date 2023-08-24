@@ -1,6 +1,8 @@
 # New Frontier Craft #
 _A New Adventure In Old Minecraft - The Official Source Code_
 
+Note: Improvements will be coming to the setup process for this soon. Full IntelliJ support will be added and the automated setup will be improved to include the MCP folder download and bin folder setup. 
+
 Official Website: https://newfrontiercraft.net/
 
 ---
