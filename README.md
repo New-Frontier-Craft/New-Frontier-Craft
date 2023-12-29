@@ -1,9 +1,15 @@
 # New Frontier Craft #
 _A New Adventure In Old Minecraft - The Official Source Code_
 
-Note: Improvements will be coming to the setup process for this soon. Full IntelliJ support will be added and the automated setup will be improved to include the MCP folder download and bin folder setup. 
-
 Official Website: https://newfrontiercraft.net/
+
+---
+
+**Note from Developers**<br>
+This repo will be updated and fixed up within the next few weeks. We apologize for the slightly outdated repo (v3.4.2 instead of the most recent v3.4.2_02). The workspace will work fine for creating v3.4.2_02, but do keep that in mind, especially if editing base classes. 
+
+**NOTE: MCP v4.3 CURRENTLY INCOMPATIBLE WITH JAVA 7+ CODE, BE SURE TO USE JAVA 6 COMPLIANT CODE, ELSEWISE IT WILL NOT REOBFUSCATE**<br>
+*This will be fixed in the next release of the public NFC code repo*
 
 ---
 
